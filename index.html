@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <!-- basic -->
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <!-- mobile metas -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+   <!-- site metas -->
+   <title>Wise Piggy Wallet</title>
+   <meta name="keywords" content="">
+   <meta name="description" content="">
+   <meta name="author" content="">
+   <!-- bootstrap css -->
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <!-- style css -->
+   <link rel="stylesheet" href="css/style.css">
+   <!-- Responsive-->
+   <link rel="stylesheet" href="css/responsive.css">
+   <!-- fevicon -->
+   <link rel="icon" href="images/fevicon.png" type="image/gif" />
+   <!-- Scrollbar Custom CSS -->
+   <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+   <!-- Tweaks for older IEs-->
+   <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
+      media="screen">
+   <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+</head>
+<!-- body -->
+
+<body class="main-layout">
+   <!-- loader  -->
+   <div class="loader_bg">
+      <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+   </div>
+   <!-- end loader -->
+   <div class="wrapper">
+      <!-- end loader -->
+      <div class="sidebar">
+         <!-- Sidebar  -->
+         <nav id="sidebar">
+            <div id="dismiss">
+               <i class="fa fa-arrow-left"></i>
+            </div>
+            <ul class="list-unstyled components">
+               <li class="active"> <a href="#">Home</a> </li>
+               <li><a href="#transfer">Transfer </a> </li>
+               <li><a href="#manage">Manage</a> </li>
+               <li><a href="#contact">Piggy Wise </a> </li>
+            </ul>
+         </nav>
+      </div>
+      <div id="content">
+         <!-- header -->
+         <header>
+            <!-- header inner -->
+            <div class="header">
+               <div class="container-fluid">
+                  <div class="row">
+                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                        <div class="full">
+                           <div class="center-desk">
+                              <div class="logo">
+                                 <a href="index.html"><img src="images/wiselogo.png" alt="#" /></a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                        <ul class="btn">
+                           <li class="down_btn"><a href="#">Information</a></li>
+                           <li><a href="#">Sign Up</a></li>
+                           <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                           <li><button type="button" id="sidebarCollapse">
+                                 <img src="images/menu_icon.png" alt="#" />
+                              </button>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </header>
+         <!-- end header inner -->
+         <!-- end header -->
+         <!-- banner -->
+         <div id="myCarousel" class="carousel slide banner_main" data-ride="carousel">
+            <ol class="carousel-indicators">
+               <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+               <li data-target="#myCarousel" data-slide-to="1"></li>
+               <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <div class="container-fluid">
+                     <div class="carousel-caption">
+                        <div class="row">
+                           <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+                              <div class="text-bg">
+                                 <h1>Managing Your Finances </h1>
+                                 <p>A completely new solution to help you manage your spending, plan your savings and contribute to social benefits. </p>
+                                 <a class="read_more" href="#">Read more</a>
+                              </div>
+                           </div>
+                           <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
+                              <div class="images_box">
+                                 <figure><img src="images/img2.png"></figure>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container-fluid ">
+                     <div class="carousel-caption">
+                        <div class="row">
+                           <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+                              <div class="text-bg">
+                                 <h1>Plan Your Savings</h1>
+                                 <p>A completely new solution to help you manage your spending, plan your savings and contribute to social benefits. </p>
+                                 <a class="read_more" href="#">Read more</a>
+                              </div>
+                           </div>
+                           <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
+                              <div class="images_box">
+                                 <figure><img src="images/img2.png"></figure>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container-fluid">
+                     <div class="carousel-caption ">
+                        <div class="row">
+                           <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+                              <div class="text-bg">
+                                 <h1>Wise Piggy Wallet</h1>
+                                 <p>A completely new solution to help you manage your spending, plan your savings and contribute to social benefits. </p>
+                                 <a class="read_more" href="#">Read more</a>
+                              </div>
+                           </div>
+                           <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
+                              <div class="images_box">
+                                 <figure><img src="images/img2.png"></figure>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+               <i class="fa fa-long-arrow-left" aria-hidden="true"></i>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+               <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+            </a>
+         </div>
+         <!-- end banner -->
+         <!-- transfer -->
+         <div id="transfer" class="transfer">
+            <div class="container-fluid">
+               <div class="row d_flex">
+                  <div class="col-md-5">
+                     <div class="about_img">
+                        <figure><img src="images/10107.png" alt="#" /></figure>
+                     </div>
+                  </div>
+                  <div class="col-md-7">
+                     <div class="titlepage">
+                        <h2>Transfer <span class="blu">Money</span></h2>
+                        <p>At Wise, we’re one of the fastest growing European companies, building the best way to move money around the world. We have over 13 million customers and businesses who are
+                           using Wise already. We are ALL about better serving our customers, and in this challenge, you’ll help us to do just that.
+                           Living internationally can be hard. But it doesn’t have to be. We want you to help make international lives easier, more convenient and super cost efficient by enhancing or adding a new feature to our already much loved and used product. 
+                        </p>
+                        <a class="read_more" href="https://wise.com/">New Transaction</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- end transfer -->
+
+         <!-- manage -->
+         <div id="manage" class="manage">
+            <div class="container-fluid">
+               <div class="row d_flex">
+                  <div class="col-md-7">
+                     <div class="titlepage">
+                        <h2>How To <span class="blu">Manages it</span></h2>
+                        <p>Spend management informs users of total spending weekly, monthly and yearly and displays it as a chart of different types of spending to make it easier for customers to manage. </p>
+                        <a class="read_more" href="usermanage.html">Manage Your Money</a>
+                     </div>
+                  </div>
+                  <div class="col-md-5">
+                     <div class="work_img">
+                        <figure><img src="images/managemoney.png" alt="#" /></figure>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- end manage -->
+         <!-- piggy -->
+         <div id="transfer" class="transfer">
+            <div class="container-fluid">
+               <div class="row d_flex">
+                  <div class="col-md-5">
+                     <div class="about_img">
+                        <figure><img src="images/piggybank.png" alt="#" /></figure>
+                     </div>
+                  </div>
+                  <div class="col-md-7">
+                     <div class="titlepage">
+                        <h2>The Wise Piggy <span class="blu">Wallet</span></h2>
+                        <p>Piggy Wallet, where you can set a goal to save how much money in a certain period, the application will calculate how much money you need to save each day, in addition to out with Piggy Wallet app, you can play mini-games (mini-games are a model of games that advertise in partnership with brands and businesses), with playing mini-games every day (limited number of plays per day) you will accumulate Piggy Wallet coins. Piggy Wallet coin is a virtual value that can be earned from money transfer, or payment, can be bought with money or earned from mini games, from the number of kilometers gained from running ...
+                           Piggy Wallet coins cannot be withdrawn and cannot be paid, but they can be used to exchange for discount coupons and especially contribute a large part to charity funds. Therefore, in our opinion, with the presence of Piggy Wallet, you will be easier to manage their spending, the presence of Piggy Wallet has great human value, helping social issues, it not only stops at personal benefits but also has a positive impact on the community.  </p>
+                        <a class="read_more" href="game.html">Open Piggy Wallet</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- end piggy -->
+         
+         <!--  footer -->
+         <footer>
+            <div class="footer">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                        <div class="row">
+                           <div class="col-md-8 col-sm-6">
+                              <div class="address">
+                                 <h3>Address </h3>
+                              </div>
+                           </div>
+                           <div class="col-md-4 col-sm-6">
+                              <div class="address">
+                                 <h3>Links</h3>
+                                 <ul class="Menu_footer">
+                                    <li class="active"> <a href="#">Home</a> </li>
+                                    <li><a href="#transfer">Transfer </a> </li>
+                                    <li><a href="#manage">Manage</a> </li>
+                                    <li><a href="#contact">Piggy Wallet </a> </li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                        <div class="row">
+                           <div class="col-md-5 col-sm-6">
+                              <div class="address">
+                                 <h3>Follow Us</h3>
+                              </div>
+                              <ul class="social_icon">
+                                 <li><a href="#">Facebook <i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                 <li><a href="#"> Twitter<i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                 <li><a href="#"> Linkedin<i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                                 </li>
+                              </ul>
+                           </div>
+                           <div class="col-md-7 col-sm-6">
+                              <div class="address">
+                                 <h3>Newsletter </h3>
+                              </div>
+                              <form class="bottom_form">
+                                 <input class="enter" placeholder="Enter Your Email" type="text"
+                                    name="Enter Your Email">
+                                 <button class="sub_btn">subscribe</button>
+                              </form>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="copyright">
+                  <div class="container">
+                     <div class="row">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </footer>
+         <!-- end footer -->
+      </div>
+      <div class="overlay"></div>
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+      <script type="text/javascript">
+         $(document).ready(function () {
+            $("#sidebar").mCustomScrollbar({
+               theme: "minimal"
+            });
+
+            $('#dismiss, .overlay').on('click', function () {
+               $('#sidebar').removeClass('active');
+               $('.overlay').removeClass('active');
+            });
+
+            $('#sidebarCollapse').on('click', function () {
+               $('#sidebar').addClass('active');
+               $('.overlay').addClass('active');
+               $('.collapse.in').toggleClass('in');
+               $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            });
+         });
+      </script>
+      <script>
+         $(document).ready(function () {
+            $(".fancybox").fancybox({
+               openEffect: "none",
+               closeEffect: "none"
+            });
+
+            $(".zoom").hover(function () {
+
+               $(this).addClass('transition');
+            }, function () {
+
+               $(this).removeClass('transition');
+            });
+         });
+      </script>
+      <script>
+         // This example adds a marker to indicate the position of Bondi Beach in Sydney,
+         // Australia.
+         function initMap() {
+            var map = new google.maps.Map(document.getElementById('map'), {
+               zoom: 11,
+               center: {
+                  lat: 40.645037,
+                  lng: -73.880224
+               },
+            });
+
+            var image = 'images/maps-and-flags.png';
+            var beachMarker = new google.maps.Marker({
+               position: {
+                  lat: 40.645037,
+                  lng: -73.880224
+               },
+               map: map,
+               icon: image
+            });
+         }
+      </script>
+      <!-- google map js -->
+      <script
+         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
+      <!-- end google map js -->
+</body>
+
+</html>
